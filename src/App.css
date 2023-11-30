@@ -1,0 +1,25 @@
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50vh;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+i {
+  float: right;
+  margin-right: 10px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+i:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: small;
+}
